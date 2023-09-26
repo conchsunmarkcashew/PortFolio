@@ -1,0 +1,72 @@
+body{
+    background-image: url(3d.jpeg);
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    border: 1px solid red;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:yellow;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+header {
+    
+    color: yellow;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.more{
+    
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.legend{
+    font-size: 40px;
+    font-style: bold;
+    color:Purple;
+}
+
+caption{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.bore{
+    border: 5px dotted magenta ;
+}
+
+.set{
+    box-sizing: 10px;
+}
+img{
+    border: 2px solid black;
+}
